@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-// Ínicio Bloco de Rotas 
+// ROTAS
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import Vistoria from './routes/Vistoria.jsx'
@@ -27,8 +27,7 @@ import Error from './routes/Erro404.jsx'
   }
   ])
 
-
-// Termino Bloco de Rotas
+// ROTAS
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
