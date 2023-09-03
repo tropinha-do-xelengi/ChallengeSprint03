@@ -1,69 +1,88 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
-a:hover {
-  color: #535bf2;
+body{
+    background-color: rgb(27, 27, 27);
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* ----- estilos do cabeçalho ----- */
+.cabecalho{
+    background-color: #6ebee4;
+    color: rgb(27, 27, 27);
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/* ----- estilos do conteudo ----- */
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: #c3e2ea;
 }
-button:hover {
-  border-color: #646cff;
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.card1{
+    padding: 1% 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card2{
+    display: flex;
+    padding: 2% 30%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border: solid 1px black;
+    border-radius: 15px;
+}
+.lista-propostas{
+    list-style: circle;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* ----- estilos do rodapé ----- */
+.rodape{
+    background-color: rgb(27, 27, 27); /*poggers*/
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+.rodape h2{
+    padding-bottom: 1%;
+}
+.lista-paginas{
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    font-weight: 500;
+}
+.lista-paginas li a{
+    text-decoration: none;
+    color: white;
+}
+#retorna-pg{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
 }
