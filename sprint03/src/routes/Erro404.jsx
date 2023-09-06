@@ -1,11 +1,12 @@
 export default function Error() {
+// <span> <Link to="/">INÍCIO</Link></span>
 
         return (
-            <main> 
+            <div> 
                 <h1> Erro 404 - Página não encontrada </h1>
-                    <p> Clique novamente <button> 
-                        Voltar </button> para retornar a página anterior 
-                        </p>
-            </main>
-        )
+                <h2>ESTÁ PAGINA <strong> NÃO EXISTE </strong></h2>
+                    <p> Retorne para o ínicio  </p> 
+            
+            </div>
+    )
 }
