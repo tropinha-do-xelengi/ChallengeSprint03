@@ -90,25 +90,40 @@ body{
 } */
 
 
- /*  -- Cabecalho Principal -- */ 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap'); 
 
- .cabecalho-imagem {
-    margin: top;
-    height: 200px;
-}
+html{
+    font-family: 'Fredoka'; }
 
-.cabecalho-sobre {
-    display: flex;
-    font-size: 50px; 
-    justify-content: center;
-}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
 
-.botao {
-    
-}
-
+/*  -- Primeiro Cabecalho -- */ 
 .cabecalho {
-    background-color: #cac9c9; 
-    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    max-width: 87%;
 }
+
+.cabecalho > img{
+    width: 10%;
+}
+#ul-navbar-cabecalho{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 5%;
+}
+#ul-navbar-cabecalho > li{   
+    padding: 0 5%;
+}
+
+
+/* .botao01 {
+    text-decoration: none;
+
+}   */ 
 
