@@ -1,3 +1,5 @@
+/*
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 *{
@@ -13,7 +15,7 @@ html{
 body{
     background-color: rgb(27, 27, 27);
 }
-/* ----- estilos do cabeçalho ----- */
+    estilos do cabeçalho
 .cabecalho{
     background-color: #6ebee4;
     color: rgb(27, 27, 27);
@@ -23,7 +25,7 @@ body{
     padding: 4%;
 }
 
-/* ----- estilos do conteudo ----- */
+     estilos do conteudo 
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -57,10 +59,10 @@ body{
     list-style: circle;
 }
 
-/* ----- estilos do rodapé ----- */
-.rodape{
-    background-color: rgb(27, 27, 27); /*poggers*/
-    color: white;
+    estilos do rodapé 
+ .rodape{
+    background-color: rgb(27, 27, 27);  poggers
+   color: white;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
@@ -85,4 +87,28 @@ body{
     text-decoration: none;
     color: white;
     font-size: 14px;
+} */
+
+
+ /*  -- Cabecalho Principal -- */ 
+
+ .cabecalho-imagem {
+    margin: top;
+    height: 200px;
 }
+
+.cabecalho-sobre {
+    display: flex;
+    font-size: 50px; 
+    justify-content: center;
+}
+
+.botao {
+    
+}
+
+.cabecalho {
+    background-color: #cac9c9; 
+    height: 300px;
+}
+
