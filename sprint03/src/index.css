@@ -1,30 +1,24 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
-
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
-html{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+html {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-body{
-    background-color: rgb(27, 27, 27);
+body {
+    background-color: #1b1b1b;
 }
-
-.cabecalho{
+.cabecalho {
     background-color: #6ebee4;
-    color: rgb(27, 27, 27);
-    font-weight: bolder;
+    color: #1b1b1b;
+    font-weight: bold;
     font-size: 2rem;
     text-align: center;
     padding: 4%;
 }
-
-.conteudo{
+.conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,33 +26,115 @@ body{
     padding: 2%;
     background-color: #c3e2ea;
 }
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 1%;
 }
-.card1{
+
+.card1 {
     padding: 1% 0;
     font-size: 18px;
     font-weight: 500;
 }
-.card2{
+
+.card2 {
     display: flex;
     padding: 2% 30%;
     text-align: start;
     justify-content: center;
     align-items: center;
-    background-color: rgb(230, 230, 230);
+    background-color: #e6e6e6;
     border: solid 1px black;
     border-radius: 15px;
 }
-.lista-propostas{
+.lista-propostas {
+    list-style: circle;
+}
+.rodape {
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+.lista-paginas {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    font-weight: 500;
+}
+.lista-paginas li a {
+    text-decoration: none;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.cabecalho {
+    background-color: #6ebee4;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: #c3e2ea;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+}
+
+.card1 {
+    padding: 1% 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card2 {
+    display: flex;
+    padding: 2% 30%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.lista-propostas {
     list-style: circle;
 }
 
-.rodape{
-    background-color: rgb(27, 27, 27);  
+.rodape {
+    background-color: #1b1b1b;
     color: white;
     font-size: 1.2rem;
     display: flex;
@@ -68,91 +144,97 @@ body{
     padding: 2%;
 }
 
-.rodape h2{
-    padding-bottom: 1%;
-}
-.lista-paginas{
+.lista-paginas {
     display: flex;
     flex-direction: column;
     list-style: square;
     font-weight: 500;
 }
-.lista-paginas li a{
+
+.lista-paginas li a {
     text-decoration: none;
     color: white;
 }
-#retorna-pg{
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-}
-*/ 
-
-:root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-color-scheme: light dark;
-color: rgba(255, 255, 255, 0.87);
-background-color: #242424;
-
-font-synthesis: none;
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
--webkit-text-size-adjust: 100%;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-a {
-font-weight: 500;
-color: #646cff;
-text-decoration: inherit;
-}
-a:hover {
-color: #535bf2;
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 body {
-margin: 0;
-display: flex;
-place-items: center;
-min-width: 320px;
-min-height: 100vh;
+    background-color: #1b1b1b;
 }
 
-h1 {
-font-size: 3.2em;
-line-height: 1.1;
+.cabecalho {
+    background-color: #6ebee4;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
 }
 
-button {
-border-radius: 8px;
-border: 1px solid transparent;
-padding: 0.6em 1.2em;
-font-size: 1em;
-font-weight: 500;
-font-family: inherit;
-background-color: #1a1a1a;
-cursor: pointer;
-transition: border-color 0.25s;
-}
-button:hover {
-border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-outline: 4px auto -webkit-focus-ring-color;
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: #c3e2ea;
 }
 
-@media (prefers-color-scheme: light) {
-:root {
-color: #213547;
-background-color: #ffffff;
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
 }
-a:hover {
-color: #747bff;
+
+.card1 {
+    padding: 1% 0;
+    font-size: 18px;
+    font-weight: 500;
 }
-button {
-background-color: #f9f9f9;
+
+.card2 {
+    display: flex;
+    padding: 2% 30%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    border: solid 1px black;
+    border-radius: 15px;
 }
+
+.lista-propostas {
+    list-style: circle;
+}
+
+.rodape {
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.lista-paginas {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    font-weight: 500;
+}
+
+.lista-paginas li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
