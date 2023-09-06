@@ -4,12 +4,13 @@ export default function Cabecalho(props) {
     return (
     <>
         <header>
-        <h1>Vite + React / coded by Marii 😚</h1>
+        <img src="" alt="Logo da Porto Seguro"></img>
+        <h1>Projeto: Challenge Porto Seguro - Bikes</h1>
         <ul>
             {props.children.map((item, indice) => {
             createElement("li", { key: indice }, item);
             return item;
-            })}
+        })}
         </ul>
         </header>
     </>

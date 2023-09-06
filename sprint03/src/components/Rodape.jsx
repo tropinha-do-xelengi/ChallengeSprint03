@@ -1,5 +1,7 @@
 export default function Rodape() {
 
+
+        
     return(
 
         <>
@@ -7,12 +9,11 @@ export default function Rodape() {
         <footer>
             <div>
                 <ul>
-                    <h2> Contato </h2>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
+                <h3> Páginas Projeto </h3>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">Linkedin</a></li>
                 </ul>
-                <p>&copy; Todos os meus direitos reservados 2021</p>
             </div>
     </footer>
         

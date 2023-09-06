@@ -1,12 +1,11 @@
-export default function Error() {
-// <span> <Link to="/">INÍCIO</Link></span>
+import { Link } from "react-router-dom"
 
-        return (
-            <div> 
-                <h1> Erro 404 - Página não encontrada </h1>
-                <h2>ESTÁ PAGINA <strong> NÃO EXISTE </strong></h2>
-                    <p> Retorne para o ínicio  </p> 
-            
-            </div>
+export default function Erro404() { 
+    return ( 
+        <div>
+            <h1>ESTÁ PAGINA <strong> NÃO EXISTE </strong></h1>
+            <p> Retorne para o ínicio <span> <Link to="/">INÍCIO</Link></span> </p>
+
+        </div>
     )
 }
