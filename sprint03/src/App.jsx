@@ -1,14 +1,12 @@
-import Rodape from './components/Rodape'
-import Conteudo from './components/Conteudo'
-import { Porto } from 'react-router-dom'; 
+import Cabecalho from './components/Cabecalho';
 
-export default function App() { 
+function App() {
     return (
-        <>
-            <Conteudo /> 
-                <Porto /> 
-            <Rodape /> 
-        </>
-    )
+        <div>
+            <Cabecalho />
 
-}
+        </div>
+    );
+    }
+
+export default App;

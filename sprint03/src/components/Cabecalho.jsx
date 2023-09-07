@@ -1,18 +1,13 @@
-import { createElement } from "react";
+import '../components/componentes';
 
-export default function Cabecalho(props) {
+function Cabecalho() {
     return (
-    <>
-        <header>
-        <img src="" alt="Logo da Porto Seguro"></img>
-        <h1>Projeto: Challenge Porto Seguro - Bikes</h1>
-        <ul>
-            {props.children.map((item, indice) => {
-            createElement("li", { key: indice }, item);
-            return item;
-        })}
-        </ul>
+        <header className="cabecalho">
+            <h1>Projeto: Challenge Porto Seguro - Bikes</h1>
         </header>
-    </>
     );
 }
+
+export default Cabecalho;
+
+
