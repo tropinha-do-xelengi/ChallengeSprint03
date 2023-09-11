@@ -1,13 +1,11 @@
-import '../components/componentes';
+import './cabecalho.css'
 
 function Cabecalho() {
     return (
         <header className="cabecalho">
-            <h1>Projeto: Challenge Porto Seguro - Bikes</h1>
+        <h1>Projeto: Challenge Porto Seguro - Bikes</h1> 
         </header>
-    );
+    )
 }
 
-export default Cabecalho;
-
-
+export default Cabecalho 
