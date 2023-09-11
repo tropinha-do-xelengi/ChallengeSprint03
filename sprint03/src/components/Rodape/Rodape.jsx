@@ -1,4 +1,4 @@
-import './cabecalho.css'
+import './rodape.css'
 
 function Rodape() {
     return(

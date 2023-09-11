@@ -1,4 +1,4 @@
-import './cabecalho.css'
+import './conteudo.css'
 
 function Conteudo() {
     return(
