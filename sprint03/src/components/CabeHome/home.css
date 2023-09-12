@@ -1,0 +1,110 @@
+    .HEADER-cabecalho {
+        height: 176px;
+        overflow: hidden;
+        position: relative;
+        width: 1440px;
+    }
+    
+    .HEADER-cabecalho .overlap-group {
+        border: 1px solid;
+        border-color: #00b2ff;
+        border-radius: 5px;
+        height: 48px;
+        left: 1228px;
+        position: absolute;
+        top: 31px;
+        width: 179px;
+    }
+    
+    .HEADER-cabecalho .text-wrapper {
+        color: #00b2ff;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 28px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 10px;
+        width: 150px;
+    }
+    
+    .HEADER-cabecalho .navbar {
+        border-radius: 12px;
+        height: 80px;
+        left: -16px;
+        position: absolute;
+        top: 96px;
+        width: 1486px;
+    }
+    
+    .HEADER-cabecalho .div {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 505px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 27px;
+        white-space: nowrap;
+    }
+    
+    .HEADER-cabecalho .text-wrapper-2 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 385px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 27px;
+        white-space: nowrap;
+    }
+    
+    .HEADER-cabecalho .text-wrapper-3 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 243px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 27px;
+        white-space: nowrap;
+    }
+    
+    .HEADER-cabecalho .text-wrapper-4 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 46px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 27px;
+        white-space: nowrap;
+    }
+    
+    .HEADER-cabecalho .header {
+        background-color: #7e747429;
+        border-radius: 12px;
+        height: 80px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1486px;
+    }
+    
+    .HEADER-cabecalho .logo-porto {
+        height: 48px;
+        left: 26px;
+        object-fit: cover;
+        position: absolute;
+        top: 31px;
+        width: 218px;
+    }
