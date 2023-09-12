@@ -1,6 +1,6 @@
 import './App.css'
-import Cabecalho from './components/Cabecalho/Cabecalho.jsx'
-import Conteudo from './components/Conteudo/Conteudo.jsx'
+import Cabecalho from './components/CabeHome/CabeHome.jsx'
+import Conteudo from './components/ConteHome/Conteudo.jsx'
 import Rodape from './components/Rodape/Rodape'
 
 

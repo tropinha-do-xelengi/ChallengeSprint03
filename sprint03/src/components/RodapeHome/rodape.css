@@ -1,0 +1,82 @@
+    .RODAP {
+        background-color: #7e75754a;
+        border-radius: 4px;
+        height: 224px;
+        overflow: hidden;
+        position: relative;
+        width: 1440px;
+    }
+    
+    .RODAP .porto-seguro {
+        height: 64px;
+        left: 1203px;
+        object-fit: cover;
+        position: absolute;
+        top: 36px;
+        width: 209px;
+    }
+    
+    .RODAP .text-wrapper {
+        color: #ffffff;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        left: 1060px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 132px;
+        white-space: nowrap;
+    }
+    
+    .RODAP .twitter {
+        height: 30px;
+        left: 1369px;
+        object-fit: cover;
+        position: absolute;
+        top: 174px;
+        width: 30px;
+    }
+    
+    .RODAP .instagram {
+        height: 30px;
+        left: 1318px;
+        object-fit: cover;
+        position: absolute;
+        top: 174px;
+        width: 30px;
+    }
+    
+    .RODAP .overlap-group {
+        border: 1px solid;
+        border-color: #000000;
+        border-radius: 5px;
+        height: 57px;
+        left: 28px;
+        position: absolute;
+        top: 69px;
+        width: 232px;
+    }
+    
+    .RODAP .div {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 23px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 17px;
+        white-space: nowrap;
+    }
+    
+    .RODAP .facebook {
+        height: 30px;
+        left: 1266px;
+        object-fit: cover;
+        position: absolute;
+        top: 174px;
+        width: 30px;
+    }
+    

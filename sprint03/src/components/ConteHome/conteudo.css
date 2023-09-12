@@ -1,0 +1,678 @@
+        .MAIN-contudo {
+            background: linear-gradient(
+            180deg,
+            rgba(133.44, 182, 209.31, 0.57) 0%,
+            rgba(111.93, 157.26, 182.75, 0.26) 50%,
+            rgba(255, 255, 255, 0) 100%
+            );
+            background-color: rgba(255, 255, 255, 1);
+            height: 1127px;
+            position: relative;
+            width: 1440px;
+        }
+        
+        .MAIN-contudo .overlap {
+            border: 1px solid;
+            border-color: #000000;
+            border-radius: 12px;
+            height: 265px;
+            left: 31px;
+            position: absolute;
+            top: 21px;
+            width: 578px;
+        }
+        
+        .MAIN-contudo .terceira-parte {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 20px;
+            font-weight: 400;
+            left: 79px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            text-align: center;
+            top: 93px;
+            width: 434px;
+        }
+        
+        .MAIN-contudo .segunda-parte {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 20px;
+            font-weight: 400;
+            left: 64px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 62px;
+            white-space: nowrap;
+        }
+        
+        .MAIN-contudo .primeira-parte {
+            -webkit-text-stroke: 1px #000000;
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 40px;
+            font-weight: 400;
+            left: 38px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 6px;
+            white-space: nowrap;
+        }
+        
+        .MAIN-contudo .overlap-group {
+            border: 1px solid;
+            border-color: #0038ff;
+            border-radius: 20px;
+            height: 65px;
+            left: 142px;
+            position: absolute;
+            top: 165px;
+            width: 294px;
+        }
+        
+        .MAIN-contudo .text-wrapper {
+            color: #000000;
+            font-family: "Fredoka One-Regular", Helvetica;
+            font-size: 20px;
+            font-weight: 400;
+            left: 76px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            text-align: center;
+            top: 19px;
+            white-space: nowrap;
+        }
+        
+        .MAIN-contudo .div {
+            height: 273px;
+            left: 641px;
+            position: absolute;
+            top: 17px;
+            width: 544px;
+        }
+        
+        .MAIN-contudo .ciclista {
+            height: 273px;
+            left: 0;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            width: 376px;
+        }
+        
+        .MAIN-contudo .img {
+            height: 273px;
+            left: 294px;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            width: 250px;
+        }
+        
+        .MAIN-contudo .ciclista-2 {
+            height: 273px;
+            left: 1185px;
+            object-fit: cover;
+            position: absolute;
+            top: 17px;
+            width: 255px;
+        }
+        
+        .MAIN-contudo .titulo-parte {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 32px;
+            font-weight: 400;
+            left: 41px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            text-align: center;
+            top: 321px;
+        }
+        
+        .MAIN-contudo .parte {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 16px;
+            font-weight: 400;
+            left: 41px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 367px;
+            width: 838px;
+        }
+        
+        .MAIN-contudo .titulo-parte-2 {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 32px;
+            font-weight: 400;
+            left: 41px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 486px;
+        }
+        
+        .MAIN-contudo .informa-es-resumidas {
+            color: #000000;
+            font-family: "Fredoka-Regular", Helvetica;
+            font-size: 16px;
+            font-weight: 400;
+            left: 41px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 532px;
+            width: 1135px;
+        }
+        
+        .MAIN-contudo {
+    height: 376px;
+    position: relative;
+    width: 1554px;
+    }
+
+    .MAIN-contudo .bicycle {
+    height: 55px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .bike {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .text-wrapper {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 106px;
+    width: 282px;
+    }
+
+    .MAIN-contudo .thief {
+    height: 55px;
+    left: 363px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .LADR {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 360px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .LADR-o {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 360px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 272px;
+    }
+
+    .MAIN-contudo .doente {
+    height: 55px;
+    left: 665px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .div {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 665px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .p {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 665px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 98px;
+    width: 289px;
+    }
+
+    .MAIN-contudo .mundo {
+    height: 55px;
+    left: 1014px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .text-wrapper-2 {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1014px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .text-wrapper-3 {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 1015px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    width: 281px;
+    }
+
+    .MAIN-contudo .bolsa {
+    height: 55px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 188px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .text-wrapper-4 {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 259px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .text-wrapper-5 {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 296px;
+    width: 392px;
+    }
+
+    .MAIN-contudo .escudo {
+    height: 55px;
+    left: 470px;
+    object-fit: cover;
+    position: absolute;
+    top: 188px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .text-wrapper-6 {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 483px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 263px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .text-wrapper-7 {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 480px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 287px;
+    width: 283px;
+    }
+
+    .MAIN-contudo .raio {
+    height: 55px;
+    left: 810px;
+    object-fit: cover;
+    position: absolute;
+    top: 188px;
+    width: 55px;
+    }
+
+    .MAIN-contudo .text-wrapper-8 {
+    color: #000000;
+    font-family: "Fredoka One-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 823px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    }
+
+    .MAIN-contudo .text-wrapper-9 {
+    color: #000000;
+    font-family: "Fredoka-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: 823px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 287px;
+    width: 316px;
+    }
+
+    .MAIN-contudo {
+        height: 376px;
+        position: relative;
+        width: 1554px;
+    }
+    
+    .MAIN-contudo .bicycle {
+        height: 55px;
+        left: 35px;
+        object-fit: cover;
+        position: absolute;
+        top: 12px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .bike {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 35px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 74px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .text-wrapper {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 35px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 106px;
+        width: 282px;
+    }
+    
+    .MAIN-contudo .thief {
+        height: 55px;
+        left: 363px;
+        object-fit: cover;
+        position: absolute;
+        top: 12px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .LADR {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 360px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 74px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .LADR-o {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 360px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 102px;
+        width: 272px;
+    }
+    
+    .MAIN-contudo .doente {
+        height: 55px;
+        left: 665px;
+        object-fit: cover;
+        position: absolute;
+        top: 12px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .div {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 665px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 74px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .p {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 665px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 98px;
+        width: 289px;
+    }
+    
+    .MAIN-contudo .mundo {
+        height: 55px;
+        left: 1014px;
+        object-fit: cover;
+        position: absolute;
+        top: 12px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .text-wrapper-2 {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 1014px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 74px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .text-wrapper-3 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 1015px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 99px;
+        width: 281px;
+    }
+    
+    .MAIN-contudo .bolsa {
+        height: 55px;
+        left: 36px;
+        object-fit: cover;
+        position: absolute;
+        top: 188px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .text-wrapper-4 {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 26px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 259px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .text-wrapper-5 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 26px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 296px;
+        width: 392px;
+    }
+    
+    .MAIN-contudo .escudo {
+        height: 55px;
+        left: 470px;
+        object-fit: cover;
+        position: absolute;
+        top: 188px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .text-wrapper-6 {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 483px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 263px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .text-wrapper-7 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 480px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 287px;
+        width: 283px;
+    }
+    
+    .MAIN-contudo .raio {
+        height: 55px;
+        left: 810px;
+        object-fit: cover;
+        position: absolute;
+        top: 188px;
+        width: 55px;
+    }
+    
+    .MAIN-contudo .text-wrapper-8 {
+        color: #000000;
+        font-family: "Fredoka One-Regular", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 823px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 255px;
+        white-space: nowrap;
+    }
+    
+    .MAIN-contudo .text-wrapper-9 {
+        color: #000000;
+        font-family: "Fredoka-Regular", Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+        left: 823px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 287px;
+        width: 316px;
+    }
+    
